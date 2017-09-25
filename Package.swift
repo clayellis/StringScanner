@@ -2,5 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "StringScanner"
+    name: "StringScanner",
+    targets: [
+        .target(
+            name: "StringScanner",
+            path: "Sources")
+    ]
 )
